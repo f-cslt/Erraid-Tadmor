@@ -1,0 +1,89 @@
+# dev env
+**compile_commands.json
+**.cache/
+**.vscode/
+**.idea/
+**.vgcore*
+**.clangd
+modeling/
+*.drawio
+.editorconfig
+
+# build
+erraid.log
+tadmor.log
+build/
+bin/
+erraid
+tadmor
+!erraid/
+!tadmor/
+erraid/tasks/
+sujet/
+rundir/
+rundir_pipes/
+rundir_ifs/
+test_git/
+
+vgcore*
+.sy5-2025-2026-projet-erraid-autotests.nosync
+
+#------------- template .gitignore file C projects. -------------
+
+# Prerequisites
+***.d
+
+# Object files
+***.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+***.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Personal files to ignore
+autotests/
+exemples/
+test.sh
